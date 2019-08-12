@@ -1,4 +1,4 @@
-let cierres = document.querySelectorAll('.movelink');
+let cierres = document.querySelectorAll('.close');
 
 cierres.forEach(function(cierre){
     cierre.addEventListener('click',function(ev){
