@@ -1,12 +1,3 @@
-// PARA AGREGAR O QUITAR CLASES
-// let iconos = document.querySelectorAll('.fas');
-
-// iconos.forEach(function(icono){
-//     icono.classList.remove('ejemplo');
-//     icono.classList.add('ejemplo');
-
-// });
-
 let cierres = document.querySelectorAll('.close');
 
 cierres.forEach(function(cierre){

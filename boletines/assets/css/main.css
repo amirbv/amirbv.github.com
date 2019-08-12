@@ -114,7 +114,7 @@ th{
     border-radius: 10px;
     margin-right: 0.5em;
 }
-.address{
+.address, .vid{
     font-weight: bold;
     color: #6E192E;
     font-size: 1.2em;
