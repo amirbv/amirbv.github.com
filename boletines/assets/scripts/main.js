@@ -21,7 +21,7 @@ cierres.forEach(function(cierre){
         content.classList.add('animated');
         
         setTimeout(function(){
-            location.href = "/";
+            location.href = "../";
         },700);
         
         return false;
