@@ -12,6 +12,9 @@ a{
     text-decoration: none;
     color: rgb(22, 64, 85);
 }
+a:hover{
+    color: rgba(155, 182, 196, 0.884);
+}
 img{
     max-width: 100%;
 }
