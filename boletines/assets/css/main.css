@@ -24,6 +24,9 @@ img{
     display: flex;
     justify-content: center
 }
+#band:hover{
+    color: rgba(90, 90, 90, 0.897);
+}
 .container{
     background: #460E2F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #B45539,#902F34,#6E192E,#460E2F,#2F0727,#150520);  /* Chrome 10-25, Safari 5.1-6 */
