@@ -7,19 +7,18 @@ const analizadorLexico = document.getElementById('lexico')
 const analizadorSintactico = document.getElementById('sintactico')
 const analizadorSemantico = document.getElementById('semantico')
 const about = document.getElementById('about')
-let audio = new Audio("./icons/goku-scream.mp3");
 
 
 analizadorLexico.addEventListener('click', () => {
+  let audio = new Audio("./icons/goku-scream.mp3");
   audio.play();
-
   const result = lexico(editor.value)
   resultado.value = JSON.stringify(result, undefined, 3)
 })
 
-analizadorSintactico.addEventListener('click', () => {0
+analizadorSintactico.addEventListener('click', () => {
+  let audio = new Audio("./icons/goku-scream.mp3");
   audio.play();
-
   const result = parse(editor.value)
   resultado.value = JSON.stringify(result, undefined, 3)
 })
@@ -27,6 +26,7 @@ analizadorSintactico.addEventListener('click', () => {0
 analizadorSemantico.addEventListener('click', () => analisisSemantico(editor.value))
 
 const analisisSemantico = (program) => {
+  let audio = new Audio("./icons/goku-scream.mp3");
   audio.play();
   try {
     const result = safeEval(program)
