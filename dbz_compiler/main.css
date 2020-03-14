@@ -1,0 +1,23 @@
+@media (max-width: 1142px){
+    .textAreaContainer{
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .editor{
+        width: 100%;
+    }
+}
+@media(max-width:574px){
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    #menu-nav .nav-list{
+        flex-flow: column nowrap;
+    }
+    #menu-nav .nav-list li{
+        width: 100%;
+    }
+}
