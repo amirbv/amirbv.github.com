@@ -31,7 +31,7 @@ header {
   background: var(--yellow);
 }
 header img {
-  width: 100px;
+  width: 80px;
   margin: 0 2em;
 }
 header h1 {
