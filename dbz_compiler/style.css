@@ -271,5 +271,6 @@ footer .footer-credits p > i{
 .hidden{
   display: none;
   opacity: 0;
+  visibility: hidden;
 }
 
