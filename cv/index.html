@@ -1,85 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <title>CV de Amir Bastidas</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amir es un desarrollador web junior que inicia en ésta área de trabajo">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amir Bastidas - portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body style="font-family: Helvetica, Arial, sans-serif;margin: 0%">
-    <header style="background-color: #23A8F2;color:#FFF;text-align: center;padding: 16px;">
-        <h1 style="display: inline-block;width: 400px;font-weight: 700;">CV de Amir Bastidas</h1>
-        <p style="display: inline-block;width: 400px;font-weight: 400;font-size: 22px">FrontEnd Web Developer</p>
-    </header>
 
-    <div style="text-align: center;background-color: rgb(231, 130, 96);color: rgb(33, 36, 39);padding: 10px;">
-        I'm a new FrontEnd Web Developer with some months of experience
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <span class="material-icons md-28">menu</span>
     </div>
-
-    <section>
-        <div style="margin-right: auto;margin-left: auto;margin-top: 20px;width: 900px">
-            <div>
-                <div style="display: inline-block;width: 60%; vertical-align: top">
-                        <h3 style="font-size: 36px; font-weight: 700;">Education</h3>
-                        <div>
-                            <dl>
-                                <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">Informatics Engineer</dt>
-                                <dd>2018 - 2021. Dr. Rafael Belloso Chacin University. Maracaibo.</dd>
-                                <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">Advanced English</dt>
-                                <dd>2018 - 2019. CEVAZ.</dd>
-                            </dl>
-                        </div>
-                    </div>
-                <div style="display: inline-block; width: 30%; margin-top: 20px;">
-                    <img src="./images/me.jpg" alt="" width="300" style="border: 2px solid;border-radius:10px;">
-                </div>
-            </div>
-            <div style="margin-top: 0px;">
-                <h3 style="font-size: 36px; font-weight: 700;margin-top: 0px;">Professional Experience</h3>
-                <div>
-                    <dl>
-                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">Freelancer</dt>
-                        <dd>2019. I have 3 months creating websites for companys abroad.</dd>
-                    </dl>
-                </div>
-            </div>
-            <div style="margin-top: 50px;">
-                <h3 style="font-size: 36px; font-weight: 700;">Courses</h3>
-                <div>
-                    <dl>
-                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">JavaScript Course</dt>
-                        <dd>2019. Dr. Rafael Belloso Chacin University.</dd>
-                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">Professional BackEnd with Node.js Course</dt>
-                        <dd>2019. <a href="https://codigofacilito.com" style="color: black">CodigoFacilito.com</a> </dd>
-                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px;margin-top: 36px;">Professional Python Course</dt>
-                        <dd>2019. <a href="https://codigofacilito.com" style="color: black">CodigoFacilito.com</a> </dd>
-                    </dl>
-                </div>
-            </div>
-            <div style="margin-top: 50px;">
-                <h3 style="font-size: 36px; font-weight: 700;">Other Information</h3>
-                <ul style="margin-top:12px;padding: 0%;">
-                    <li style="margin: 16px; ">I also know about laws and rights because I'm a lawyer</li>
-                </ul>
-            </div>
-            <div style="margin-top: 50px;">
-                    <h3 style="font-size: 36px; font-weight: 700;">Social Accounts</h3>
-                    <ul style="margin-top:12px;padding: 0%;">
-                        <li style="margin: 16px; ">
-                            <a href="https://github.com/amirbv" >GitHub</a>
-                        </li>
-                        <li style="margin: 16px; ">
-                            <a href="https://gitlab.com/amirbastidas" target="_blank">GitLab</a>
-                        </li>
-                        <li style="margin: 16px; ">
-                            <a href="https://stackoverflow.com/users/11912809/amir-bastidas" target="_blank">Stack Overflow</a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="menu-screen">
+      <a class="close">
+        <span class="material-icons md-28">close</span>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#inicio">
+              <span class="main">Inicio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#yo">
+              <span class="main">Quien soy</span>
+            </a>
+          </li>
+          <li>
+            <a href="#conocenos">
+              <span class="main">Proyectos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contactanos">
+              <span class="main">Contáctame</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <header id="inicio">
+        <div class="hero-image">
+          <div>
+            <h1>Amir Bastidas</h1>
+            <img src="./images/foto_personal.png" alt="Foto de Amir">
+            <p>No sólo un desarrollador frontend, también abogo por mis metas</p>
+          </div>
         </div>
-    </section>
-    
+      </header>
+
+      <div class="container">
+        <section class="section">
+          <h2 class="title">El sueño que tienes siempre habrá forma de cumplirlo</h2>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/illustrations/1.svg" alt="">
+              <div>
+                <h6>Alguna vez has sentido que querías hacer algo pero no pudiste?</h6>
+
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/illustrations/2.svg" alt="">
+              <div>
+                <h6>Yo también y aún así, nunca me rendí en lo que he intentado y por eso hoy estoy aquí.</h6>
+
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="yo">
+          <h2 class="title">Quien Soy</h2>
+          <div class="text-show">
+            <p class="text-pink">Siempre que abro un portafolio o un resumen curricular encuentro lo mismo, información académica y experiencias profesionales, la verdad poco puedo contar al respecto, soy abogado graduado de una universidad venezolana, como yo hay muchos que decidieron embarcarse en el mundo del desarrollo aún teniendo otra profesión, hoy estoy aquí, siendo desarrollador frontend de varios proyectos entre ellos mi propio portafolio, a mi propio gusto.</p>
+
+            <div class="text-images-show">
+              <div>
+                <img src="./images/proyecto1.jpg" alt="">
+              </div>
+              <div>
+                <img src="./images/proyecto2.jpg" alt="">
+              </div>
+            </div>
+
+            <p class="text-pink">Si estás aquí, quizá te interesen algunos de mis proyectos, tengo varios pero elegí algunos entre los cuales me sentí realizado en lo que hice.</p>
+
+          </div>
+        </section>
+
+      </div>
+      <section id="conocenos">
+        <div class="cover parallax" >
+          <h2 class="title">Conoce Mis proyectos anteriores</h2>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="section">
+          <div class="cards">
+            <div class="card">
+              <a href="https://amirbv.github.io/dw/xeno/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/pag1.jpg" alt="">
+              </a>
+              <div>
+                <h6>Xenoblade Chronicles</h6>
+                <p>Hice esta página basado en uno de mis juegos favoritos de todos los tiempos.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://amirbv.github.io/dw/cripto/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/pag2.jpg" alt="">
+              </a>
+              <div>
+                <h6>Cryptron</h6>
+                <p>Una página parecida a otras páginas de criptomoneda donde se hospedan noticias sobre trading, criptodivisas y más.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://amirbv.github.io/dw/moda/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/pag3.jpg" alt="">
+              </a>
+              <div>
+                <h6>Sensation Style</h6>
+                <p>Una tienda de moda aesthetic, siempre a la vanguardia.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://amirbv.github.io/dbz_compiler/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/pag4.jpg" alt="">
+              </a>
+              <div>
+                <h6>Compilador Kame House.JS</h6>
+                <p>Un compilador de javascript con temática del reconocido anime Dragon Ball.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </main>
+    <footer id="contactanos">
+      <h2 class="title">Espero tu mensaje</h2>
+      <div class="form-container">
+        <h3 class="subtitle">Contáctame si quieres hacer tus sueños realidad</h3>
+        <form action="#" id="contact-form">
+          <div class="page">
+            <label class="field field_v1">
+              <input class="field__input" placeholder="Jhon" required>
+              <span class="field__label-wrap">
+                <span class="field__label">Nombre</span>
+              </span>
+            </label>
+            <label class="field field_v1">
+              <input class="field__input" placeholder="Doe" required>
+              <span class="field__label-wrap">
+                <span class="field__label">Apellido</span>
+              </span>
+            </label>    
+            <label class="field field_v1">
+              <input class="field__input" placeholder="example@example.com" required>
+              <span class="field__label-wrap">
+                <span class="field__label">E-mail</span>
+              </span>
+            </label>
+            <label class="field field_v1">
+              <textarea cols="30" rows="3" class="field__input" placeholder="Tell us something about you" required></textarea>
+              <span class="field__label-wrap">
+                <span class="field__label">Mensaje</span>
+              </span>
+            </label>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </div>
+  <script src="./javascript/main.js"></script>
+  <script src="./javascript/menu.js"></script>
 </body>
+
 </html>
