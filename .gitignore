@@ -1,0 +1,24 @@
+# Ignore all files ending with .log
+*.log
+
+# Ignore all files in the 'temp' directory
+temp/
+
+# Ignore a specific file
+config.local.json
+
+# Ignore all files in the 'build' directory at any level
+**/build/
+
+# Ignore the 'node_modules' directory often used for dependencies
+node_modules/
+
+# Ignore OS-specific files (like macOS .DS_Store or Windows Thumbs.db)
+.DS_Store
+Thumbs.db
+
+# Ignore all files ending in .txt, but include 'important.txt'
+*.txt
+!important.txt
+
+# Comments start with a hash (#) and blank lines are ignored

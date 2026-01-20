@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.75rem; */
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5rem;
+  /* background: #DADADA;
+    background: linear-gradient(to right, #DADADA 0%, #F4F4F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.skills {
+  font-size: 1rem;
+
+}
+
