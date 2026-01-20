@@ -1,17 +1,20 @@
+import { useState } from 'react';
 import './ProjectItem.css';
 
-function ProjectItem({name, description, type}) {
+function ProjectItem({name, description, type, link}) {
+
+  const [isTruncated, setIsTruncated] = useState(true)
 
   function truncate(str) {
-    return str.length > 25 ? str.substring(0, 25) + "..." : str;
+    return str.length > 200 ? str.substring(0, 200) + "..." : str;
   }
 
   return (
     <div className="project-item">
-      <h3 className="project-name">{name}</h3>
+      <h3 className="project-name"><a href={link}>{name}</a></h3>
       <div>
-        <p>
-          {truncate(description)}
+        <p onClick={() => setIsTruncated(!isTruncated)}>
+          {isTruncated ? truncate(description) : description}
         </p>
       </div>
       <div className="project-type-container">

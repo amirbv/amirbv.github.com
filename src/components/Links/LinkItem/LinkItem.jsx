@@ -1,11 +1,13 @@
-import './LinkItem.css';
+import "./LinkItem.css";
 
-function LinkItem({ name, iconSrc }) {
+function LinkItem({ name, iconSrc, link }) {
   return (
-    <div className="link-item">
-      <img className="link-img" src={iconSrc} alt="icon" />
-    </div>
-  )
+    <a href={link} target="_blank" rel="noreferrer" title={name}>
+      <span className="link-item">
+        <img className="link-img" src={iconSrc} alt="icon" />
+      </span>
+    </a>
+  );
 }
 
 export default LinkItem;

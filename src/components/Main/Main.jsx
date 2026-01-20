@@ -5,16 +5,18 @@ function Main() {
   return (
     <div className="main-container">
         <div className="name">
-          <strong>Jose Gutierrez</strong>
+          <strong>Amir Bastidas</strong>
           <div>
             <Links />
           </div>
         </div>
         <div className="title">
-          Front-end & hybrid mobile developer
+          Front-end developer
         </div>
         <div className="description">
-          I build web front-end  and mobile apps solutions.
+          Frontend developer passionate about crafting performant, accessible UIs for complex data-heavy applications.
+            <br />
+          6+ years building production React apps, PWAs, and Web3 dApps with a focus on UX, Accesibility, security, and Core Web Vitals.
         </div>
     </div>
   )
