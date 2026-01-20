@@ -5,7 +5,7 @@ function Main() {
   return (
     <div className="main-container">
         <div className="name">
-          <strong>Amir Bastidas</strong>
+          <strong className='name-text'>Amir Bastidas</strong>
           <div>
             <Links />
           </div>
