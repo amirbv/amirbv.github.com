@@ -1,0 +1,36 @@
+.project-item {
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex: 1;
+    min-width: 15rem;
+    width: 15rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.project-name {
+    /* height: 1rem; */
+    color: black;
+}
+
+.project-name a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.project-name a:hover {
+    text-decoration: underline;
+}
+
+.project-type-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.project-type-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
